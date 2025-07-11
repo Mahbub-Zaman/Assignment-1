@@ -53,8 +53,17 @@ nav{
     cursor: pointer;
 }
 
+.primary-btn:hover {
+    background-color: orange;
+    color: black;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition-duration: 1s;
+}
+
 .banner-content{
     margin: 0 auto;
+    justify-content: center;
     width: 905px;
     height: 237px;
     align-items: center;
@@ -64,6 +73,7 @@ nav{
 .banner-title{
     font-size: 65px;
     font-weight: bold;
+    padding-top: 150px;
     margin-bottom: 37px;
 }
 
@@ -119,7 +129,6 @@ nav{
     margin: 0 auto;
     width: 1140px;
     height: 306px;
-    margin-bottom: 137px;
     border-radius: 24px;
     background-color: rgba(78, 71, 255, 0.1);
     text-align: center;
@@ -239,7 +248,43 @@ nav{
     color: #b3b3b3;
 }
 
+/* Focus section */
+.focus{
+    width: 1140px;
+    height: 696.77;
+    background: white;
+    border-radius: 16px;
+    text-align: center;
+    margin: 0 auto;
+}
 
+.focus h1{
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 71px;
+    margin-bottom: 20px;
+}
+
+.focus p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.focus-btn{
+    width: 195px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.focus img {
+  max-width: 100%;
+  border-radius: 32px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  margin-bottom: 71px;
+}
 
 
 /* Touch Selection */
@@ -268,7 +313,7 @@ label{
 }
 
 input{
-    border: .5px solid rgb(178, 178, 189);
+    border: .5px solid rgba(200, 200, 223, 0.726);
     outline:none;
     width: 465px;
     height: 70px;
@@ -286,12 +331,12 @@ textarea{
     width: 465px;
     height: 135px;
     border-radius: 10px;
-    border: .5px solid rgb(178, 178, 189);
+    border: .5px solid rgba(200, 200, 223, 0.726);
     outline: none;
     padding-left: 32px;
     padding-top: 19px;
     font-size: 1.2rem;
-    
+    resize: none;
 }
 
 .form-btn{
@@ -301,7 +346,7 @@ textarea{
     font-weight: 700;
     margin-top: 19px;
 }
-
+/* Footer section */
 .footer-section{
     margin: 0 auto;
     width: 1440px;
