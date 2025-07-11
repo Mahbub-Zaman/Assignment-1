@@ -1,7 +1,10 @@
-/* *{
-    margin: 0 auto;
-} */
-
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #F6F8FF;
+}
 /* Font section */
 .raleway-normal {
   font-family: "Raleway", sans-serif;
@@ -68,6 +71,7 @@ nav{
     width: 174px;
     height: 48px;
 }
+
 
 /* Action Section */
 .action-section{
@@ -162,28 +166,105 @@ nav{
     color: rgba(0, 0, 0, 0.5);
 }
 
+/* Touch Selection */
+.touch-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1140px;
+    height: 632px;
+    gap: 115px;
+}
 
+.touch-section h1{
+    font-size: 97px;
+    font-weight: 700;
+    color: black;
+}
 
+label{
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
 
+input{
+    border: .5px solid rgb(178, 178, 189);
+    outline:none;
+    width: 465px;
+    height: 70px;
+    background-color:1px solid white;
+    border-radius: 10px;
+    padding-left: 32px;
+}
 
+input::placeholder{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+}
 
+textarea{
+    width: 465px;
+    height: 135px;
+    border-radius: 10px;
+    border: .5px solid rgb(178, 178, 189);
+    outline: none;
+    padding-left: 32px;
+    padding-top: 19px;
+    font-size: 1.2rem;
+    
+}
 
+.form-btn{
+    width: 497px;
+    height: 70px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 19px;
+}
 
+.footer-section{
+    margin: 0 auto;
+    width: 1440px;
+    height: 428px;
+    background-color: white;
+    text-align: center;
+}
 
+.footer-content{
+    width: 531px;
+    height: 221px;
+    margin: 104px auto;
+    padding-top: 104px;
+}
 
+.footer-content h1{
+    color: #4E47FF;
+    font-size: 100px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
 
+.footer-content p{
+    color: rgba(137, 135, 161, 1);
+    font-size: 16px;
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 20px;
+}
 
+.footer-link{
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer-link a{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgba(137, 135, 161, 1);
+}
